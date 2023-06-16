@@ -17,17 +17,24 @@ body{
 }
 
 main {
-    max-width: 80%;
-    height: 100%;
+    margin: 2rem;
+    min-height: 80%;
     background:var( --background-300);
-    margin: 1rem auto;
     text-align: center;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
 }
 
+.card_profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    padding: 1rem 0 0 0;
+}
 .card_profile img {
     height: 20rem;
     width: 20rem;
@@ -37,16 +44,16 @@ main {
 }
 .card_profile p {
     font-size:2.5rem;
-   }
+}
 
 .card_profile strong{
  font-size:1.8rem;
 }
 
 .card_profile span {
-    font-size:4rem;
+    font-size:4.5rem;
+    margin-top: 4rem;
     font-weight: bold;
-    line-height: 1.6;
 }
 
 
