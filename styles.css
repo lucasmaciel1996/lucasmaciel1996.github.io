@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+  --background-500:#121212;
+  --background-300:#212121;
+  --gray-200: #e0e0e0;
+}
+
+body{
+    color:var(--gray-200);
+    background:var( --background-500);
+    height: 100vh;
+}
+
+main {
+    max-width: 80%;
+    height: 100%;
+    background:var( --background-300);
+    margin: 1rem auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.card_profile img {
+    height: 20rem;
+    width: 20rem;
+    border-radius: 16px;
+    border: 2px solid var(--background-500);
+    outline: 2px solid  var(--gray-200);
+}
+.card_profile p {
+    font-size:2.5rem;
+   }
+
+.card_profile strong{
+ font-size:1.8rem;
+}
+
+.card_profile span {
+    font-size:4rem;
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+
